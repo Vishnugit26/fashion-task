@@ -1,0 +1,697 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans:wght@400;500&family=Roboto:wght@300;400;500&display=swap" );
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@300;400;500&display=swap");
+body{
+    margin: 0;
+}
+.maindiv{
+    display: flex;
+    width: 1300px;
+    justify-content: space-around;
+    margin: auto;
+}
+.headerdiv{
+    background-color: white;
+    height: 850px;
+}
+.cap{
+    width: 55px;
+    height: 25px;
+    border: 1px black solid;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+.arrow{
+    transform: rotate(90deg);
+    width: 37px;
+    height: 94px;
+    margin-left: 36px;
+    position: relative;
+    top: 22px;
+}
+.headname1{
+    font-size: 30px;
+    padding-top: 25px; 
+}
+.headname2{
+    font-size: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+.future{
+    font-family: 'Courgette', cursive;
+    font-family: 'Ephesis', cursive;
+    font-size: 150px;
+}
+.headname3{
+    font-size: 30px;
+    padding-top: 30px;
+}
+.work{
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.imgdiv{
+    bottom: 70px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 1345px;
+    margin: auto;
+}
+.section1{
+    background-color: rgb(17, 17, 23);
+    height: 800px;
+}
+.agatho2{
+    font-size: 80px;
+    margin-bottom: 0px;
+    color: white;
+    margin-bottom: 30px;
+}
+.hagatho{
+    margin-left: 42px;
+    margin-top: 82px;
+}
+.peoplesdiv{
+    display: flex;
+    margin-top: 70px;
+    height: 350px;
+    width: 542px;
+    margin-left: 88px;
+}
+.paras{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 51px;
+}
+.para1{
+    color: white;
+    width: 533px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.para2{
+    color: white;
+    width: 533px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.headpeople{
+    display: flex;
+    justify-content: space-around;
+}
+.section3{
+    height: 1000px;
+    background-color: white;
+}
+.headerdiv3{
+    display: flex;
+    justify-content: space-between;
+    width: 1255px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+.ourarrow{
+    font-size: 45px;
+    margin-left: 70px;
+    font-family: 'Courgette', cursive;
+}
+.arrow2{
+    transform: rotate(90deg);
+    width: 200px;
+    height: 190px;
+    margin-left: 36px;
+    position: relative;
+    bottom: 24%;
+}
+.imgsdiv{
+    justify-content: space-around;
+    display: flex;
+    width: 1210px;
+    margin: auto;
+}
+.col1-1,.col2-1,.col3-1{
+    justify-content: space-around;
+    display: flex;
+    width: 355px;
+}
+.col1-2,.col2-2,.col3-2{
+    justify-content: space-around;
+    display: flex;
+
+}
+.col1-1-1{
+    height: 140px;
+    width: 106px;
+    padding-bottom: 16px;
+}
+.col1-1-2{
+    height: 140px;
+    width: 236px;
+    padding-left: 13px;
+}
+.col3-2-1{
+    height: 236px;
+    width: 178px;
+    position: relative;
+    right: 8px;
+    top: 7px;
+   
+}
+.col3-2-2{
+    height: 235px;
+    width: 170px;
+    position: relative;
+    top: 7px;
+}
+.col3-1-1{
+    position: relative;
+    width: 100px;
+    height: 150px;
+    right: 7px;
+}    
+
+.col1-2-2{
+    height: 250px;
+    width: 170px;
+    padding-left: 13px;
+}
+.col2-1-1{
+    height: 240px;
+    width: 167px;
+    padding-bottom: 14px;
+    padding-right: 13px;
+}
+.col2-1-2{
+    height: 240px;
+    width: 167px;
+}
+
+.col2-2-2{
+    width: 128px;
+    height: 150px;
+    padding-left: 4px;
+}
+.col2-2-1{
+    width: 217px;
+}
+.col1-2-1{
+    height: 250px;
+    width: 170px;
+}
+.parablock{
+    width: 793px;
+    margin-left: 5px;
+}
+.section4{
+    height: 600px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    width: 1343px;
+}
+.schematiq{
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: 100;
+}
+.brand{
+    border: 2px solid black;
+    padding: 9px;
+    border-radius: 30px;
+    padding-left: 21px;
+    padding-right: 16px;
+    width: 122px;
+    font-size: 17px;
+    margin-top: 5px;
+    font-family: cursive;
+    margin-bottom: 80px;
+}
+.hd1-2{
+    font-family: sans-serif;
+    position: relative;
+    right: 75px;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+.para1-2{
+    font-family: monospace;
+    width: 345px;
+    margin-bottom: 25px;
+}
+.shd1-2{
+    font-size: 60px;
+    position: relative;
+    top: 20px;
+    right: 15px;
+}
+.para2s{
+    margin-left: 100px;
+    width: 250px;
+    font-size: 20px;
+}
+.tab_mob{
+    position: relative;
+}
+.mob_tab{
+    position: absolute;
+    position: absolute;
+    bottom: 1px;
+    right: 200px;
+}
+.tabmobile{
+    position: relative;
+    
+}
+.tab{
+   position: relative;
+   bottom: 15px;
+}
+.tabimg{
+    position: absolute;
+    top: 36px;
+    left: 38px;
+    height: 439px;
+    width: 323px;
+}
+.tabimgpic img{
+    width: 401px;
+    height: 500px;;
+  
+}
+.mobile{
+    position: relative;
+}
+.mobileimg{
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    height: 320px;
+    width: 161px;
+    border-radius: 13px;
+}
+.mobileimgpic img{
+    width: 296px;
+    height: 336px;
+}
+.section5{
+    height: 870px;
+}
+.img3s{
+    margin: auto;
+    justify-content: space-around;
+    width: 1342px;
+    display: flex;
+    padding-top: 100px;
+}
+.bwbox{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+.section6{
+    height: 1560px;
+    background-color: rgb(230, 230, 230);
+}
+.paraimg{
+    display: flex;
+    width: 500px;
+}
+.Iconography{
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: 100;
+}
+.video{
+    border: 2px solid black;
+    border-radius: 45px;
+    padding-left: 37px;
+    padding-right: 40px;
+    width: 135px;
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+.parablock2{
+    width: 761px;
+    margin-left: 90px;
+    padding-top: 29px;
+}
+.para2s1{
+    margin-left: 142px;
+    width: 250px;
+    font-size: 19px;
+    padding-top: 50px
+}
+.imgs2{
+    margin-left: 189px;
+    margin-top: 26px;
+}
+.imgs1{
+    margin-left: 409px;
+    padding-top: 77px;
+}
+.selfiegirl{
+   padding-top: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.bwbox2{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.section7{
+    height: 650px;
+    background-color: white;
+}
+.parablockimg{
+    display: flex;
+    width: 1200px;
+}
+.parablock3{
+    width: 761px;
+    margin-left: 90px;
+    padding-top: 29px;
+}
+.spring{
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: 100;
+}
+.website{
+    border: 2px solid black;
+    border-radius: 45px;
+    padding-left: 37px;
+    padding-right: 40px;
+    width: 55px;
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+.para2s2{
+    margin-left: 142px;
+    font-size: 19px;
+    padding-top: 10px
+}
+.appleontable img{
+    height: 468px;
+    width: 582px;
+    margin-top: 123px;
+    position: absolute;
+    left: 709px;
+}
+.section8{
+    height: 800px;
+    background-color: white;
+    padding-top: 10px;
+}
+.lapandimg{
+    width: 1348px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 58px;
+}
+.colorpages{
+    position: relative;
+    left: 124px;
+}
+.laptop{
+    margin-top: 80px;
+    position: relative;
+    right: 33px;
+}
+.lapara{
+    position: absolute;
+    right: 200px;
+    width: 300px;
+    font-size: 11px;
+    font-family: monospace;
+    color: cadetblue;
+    bottom: 245px;
+}
+.section9{
+    height: 750px;
+    background-color: white;
+}
+.hpround{
+    justify-content: space-between;
+    width: 1209px;
+    display: flex;
+    margin: auto;
+}
+
+.what{
+    font-size: 75px;
+    font-family: system-ui;
+    margin-bottom: 0px;
+}
+.Elevate{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: monospace;
+}
+.round{
+    margin-top: 70px;
+}
+.Brand1,.Brand2,.Brand3,.Brand4,.Brand5,.Brand5,.Brand6{
+    padding-top: 15px;
+    border: 2px solid black;
+    border-radius: 45px;
+    padding-left: 50px;
+    padding-right: 9px;
+    width: 303px;
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: cursive;
+    margin-bottom: 37px;
+    padding-bottom: 20px;
+}
+.capsule{
+    display: flex;
+    width: 1349px;
+    justify-content: space-around;
+    margin-top: 176px;
+}
+.section10{
+    height: 750px;
+    background-color: #1e1e1e;
+}
+.press{
+    color: white;
+    font-size: 80px;
+    padding-top: 70px;
+    margin-left: 70px;
+    margin-top: 0px;
+}
+.imgsection{
+    display: flex;
+    justify-content: space-around;
+    width: 1148px;
+    margin-left: 199px;
+}
+.img-4{
+    color: white;
+    width: 167px;
+    
+}
+.press4{
+    font-size: 20px;
+    font-family: math;
+}
+.title{
+    font-size: 25px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+.section11{
+    height: 700px;
+    background-color: rgb(211, 211, 211);
+}
+.Clients{
+    color: black;
+    font-size: 85px;
+    padding-top: 50px;
+    margin-left: 70px;
+    margin-top: 0px;
+    font-family: 'Courgette', cursive;
+    font-weight: 100;
+}
+.logo4s1{
+    display: flex;
+    width: 1187px;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin: auto;
+}
+.logo1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 15px;
+}
+.schematiq{
+    font-family: fantasy;
+    margin-top: 0px;
+}
+.logo2 img{
+    height: 48px;
+    width: 200px;
+}
+.logo3{
+   display: flex;
+   display: flex;
+    padding-top: 56px;
+}
+.memento{
+    font-size: 40px;
+    margin-top: 0px;
+}
+.mementoimg{
+    background-color: black;
+    width: 39px;
+    height: 41px;
+    border-radius: 51%;
+    padding-top: 6px;
+    padding-left: 7px;
+    margin-right: 10px;
+}
+.logo4 img{
+    width: 183px;
+    height: 41px;
+    padding-top: 21px;
+}
+.Sprig{
+    margin-top: 0px;
+    font-size: 35px;
+}
+.logo4s2{
+    display: flex;
+    width: 1126px;
+    justify-content: space-around;
+    padding-top: 64px;
+    margin: auto;
+}
+.chapter{
+    width: 247px;
+    font-family: 'Courgette';
+    font-size: 44px;
+    position: relative;
+    bottom: 20px;
+}
+.curaaid{
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.plus{
+    position: relative;
+    bottom: 23px;
+    right: 12px;
+    font-size: 31px;
+}
+.crowd{
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+.zero{
+    text-decoration: underline;
+    font-size: 36px;
+    position: relative;
+    bottom: 15px;
+    right: 9px;
+    font-family: monospace;
+    font-weight: lighter;
+}
+.wilderness{
+    display: flex;
+}
+.wildernessh{
+    width: 100px;
+    font-family: sans-serif;
+}
+.wildernessimg{
+    padding-top: 20px;
+    padding-right: 7px;
+}
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    height: 750px;
+    background-color: rgb(17, 17, 17);
+}
+.studioAgatho{
+    color: white;
+    margin-top: 0px;
+    padding-top: 75px;
+    font-size: 30px;
+    margin-left: 80px;
+}
+.fpara{
+    display: flex;
+    width: 1117px;
+    justify-content: space-around;
+}
+.fpara1{
+   color: white;
+   padding-top: 80px;
+   padding-right: 200px;
+}
+.fmake{
+    width: 371px;
+    font-size: 75px;
+}
+.fwork{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 69px;
+    font-size: 27px;
+    padding-left: 48px;
+    padding-right: 27px;
+    width: 168px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+.fpara2{
+    color: white;
+    padding-top: 67px;
+    padding-right: 25px;
+}
+.ftrpara{
+    width: 221px;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+.icons{
+    width: 200px;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 66px;
+}
